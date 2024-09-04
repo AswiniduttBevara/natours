@@ -8,6 +8,7 @@ const xss = require('xss-clean');
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controller/errorController');
 
+//started express
 const app = express();
 
 const tourRouter = require('./routes/tourRoutes');
